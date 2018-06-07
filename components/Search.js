@@ -31,7 +31,7 @@ Search = React.createClass({
         
     return <input
             type="text"
-            onChange={this.handle.Change}
+            onChange={this.handleChange}
             placeholder="Tutaj wpisz wyszukiwaną frazę"
             style={styles}
             value={this.state.searchTerm}
@@ -88,3 +88,4 @@ getGif: function(searchingText, callback) {  // 1.
     };
     xhr.send();
 },
+*/
